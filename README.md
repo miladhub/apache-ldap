@@ -25,7 +25,7 @@ openssl x509 -outform der -in localhost.pem -out localhost.crt
 openssl pkey -in localhost-key.pem -out localhost.key
 ```
 
-# Installing the LDAP server
+## Installing the LDAP server
 
 A user has been configured in file `foo.ldif` with credentials "foo" / "bar". The password has been generated as follows:
 
