@@ -25,7 +25,7 @@ openssl x509 -outform der -in localhost.pem -out localhost.crt
 openssl pkey -in localhost-key.pem -out localhost.key
 ```
 
-## Installing the LDAP server
+## Installing the LDAP server
 
 A user has been configured in file `foo.ldif` with credentials "foo" / "bar". The password has been generated as follows:
 
@@ -65,7 +65,7 @@ docker cp localhost.key apache-ldap:/usr/local/apache2/conf/server.key
 docker exec apache-ldap apachectl restart
 ```
 
-# Installing the dummy app
+## Installing the dummy app
 
 Issue the following command:
 
